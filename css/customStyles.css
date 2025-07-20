@@ -244,11 +244,9 @@ nav.cust-nav{
   transition: opacity 0.4s ease;
   opacity: 1;
 }
-
 .product-bg-image img.fade-out {
   opacity: 0;
 }
-
 .product-bg-image img{
 	width: 100%;
 	height: 673px;
@@ -363,7 +361,7 @@ ul.dots-container li{
 	font-weight: 700;
 }
 input.subscription-radio-btn[type="radio"] {
-  appearance: none; /* Removes default styling */
+  appearance: none; 
   width: 17px;
   height: 17px;
   border: 0.81px solid var(--headerColorGreen);
@@ -617,22 +615,17 @@ section.numbers-section{
 	text-align: center;
 	margin: 0 0 57px 0;
 }
-
-
 .table-container {
       overflow-x: auto;
       max-width: 950px;
-    margin: 0 auto 83.02px auto;
+    	margin: 0 auto 83.02px auto;
     }
-
    .gtg-container table {
       border-collapse: collapse;
       width: 100%;
       min-width: 700px;
       text-align: center;
     }
-
-
     .gtg-container th, .gtg-container td {
       padding: 18.19px 14.77px;
       border-bottom: 1.01129px solid #666666;
@@ -649,7 +642,6 @@ section.numbers-section{
         font-size: 16px;
     }
    .gtg-container th:first-child {
-      
       line-height: 22.99px;
       color: #322D2D;
     }
@@ -853,9 +845,6 @@ section.hero-banner-section {
     background-size: cover;
     height: 850px;
 }
-/*.product-container{
-	flex-direction: column;
-}*/
 .product-image-left, .product-details-right {
     width: 100%;
 }
@@ -959,10 +948,7 @@ input.form-control.foot-sub-email {
 		}
 		.product-container {
     gap: 25px;
-}
-		/*.product-container{
-		flex-direction: column;
-}	*/
+		}
 .collection-container{
 	gap: 60px;
 	flex-direction: column;
@@ -1004,15 +990,15 @@ input.form-control.foot-sub-email {
 .primary-btn.banner-btn {
     padding: 0 0 40px 0;
 }
-    .single-image img {
-        height: 115px;
-    }
-    .numbers-container{
-    	flex-wrap: wrap;
+.single-image img {
+    height: 115px;
+ }
+.numbers-container{
+    flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
-    }
-    .collection-accordion{
+  }
+ .collection-accordion{
     	width: 100%;
     }
 }
