@@ -9,10 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
 
-
-
-
-
+// subscription show/hide script
 
 document.addEventListener('DOMContentLoaded', function () {
   const subscriptions = document.querySelectorAll('.subscription-option input[type="radio"]');
@@ -52,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-
+// carousel script
 
 document.addEventListener('DOMContentLoaded', () => {
   const mainImage = document.querySelector('.product-bg-image img');
@@ -116,9 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-
-
-
+// add to cart url script
 
  document.addEventListener("DOMContentLoaded", function () {
     const addToCartBtn = document.getElementById("add-to-cart-btn");
@@ -158,14 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-
-
-
-
-
-
-
-
+// counter script
 
 document.addEventListener("DOMContentLoaded", function () {
     const numbersSection = document.querySelector(".numbers-section");
@@ -211,11 +199,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-
-
-
-
-
+// accordion script
 
 document.addEventListener('DOMContentLoaded', function () {
   const accordionButtons = document.querySelectorAll('.accordion-item h5');
@@ -235,5 +219,15 @@ document.addEventListener('DOMContentLoaded', function () {
         item.classList.add('open');
       }
     });
+  });
+});
+
+
+// lazy loading script
+
+document.addEventListener("DOMContentLoaded", function () {
+  const images = document.querySelectorAll("img:not([loading])");
+  images.forEach(img => {
+    img.setAttribute("loading", "lazy");
   });
 });
